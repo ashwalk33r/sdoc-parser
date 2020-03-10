@@ -1,5 +1,5 @@
 # sdoc-parser
-*.SDOC file format parser
+"Samsung Notes > export *.SDOC file to PDF" parser
 
 sudo apt install poppler-utils
 
