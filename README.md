@@ -1,7 +1,9 @@
 # sdoc-parser
 "Samsung Notes > export *.SDOC file to PDF" parser
 
-sudo apt install poppler-utils
+`sudo apt install poppler-utils`
+
+then
 
 `find . -iname '*.pdf' -exec pdftotext {} {}.txt \;`
 
