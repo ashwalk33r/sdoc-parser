@@ -5,15 +5,12 @@
 
 `sudo apt install poppler-utils`
 
-`
-python
-update-alternatives --list python
-ls /usr/bin/python*
-update-alternatives --install /usr/bin/python python /usr/bin/python3.6 1
-sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.6 1
-update-alternatives --list python
-python --version
-`
+`update-alternatives --list python`
+`ls /usr/bin/python*`
+`update-alternatives --install /usr/bin/python python /usr/bin/python3.6 1`
+`sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.6 1`
+`update-alternatives --list python`
+`python --version`
 
 `sudo apt-get install -y qpdf`
 
